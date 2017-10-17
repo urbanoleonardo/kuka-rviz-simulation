@@ -11,9 +11,9 @@
 
 
   <!-- Startup RVIZ with given config -->
-   <!--  <group if="$(arg load-rviz)">
-    <node name="rviz" pkg="rviz" type="rviz"  args="-d $(arg rviz-config-path)"  required="true" />
-  </group> -->
+    <group if="$(arg load-rviz)">
+    <node name="rviz" pkg="rviz" type="rviz"  args="-d $(arg rqt-config-path)"  required="true" />
+  </group>
 
 
 </launch>
