@@ -2,7 +2,7 @@
 <launch>
 
   <!-- Set Robot model/rviz configuration path-->
-  <arg name="urdf-name"                   default="kuka_lwr_lasa.urdf.xacro"/>
+  <arg name="urdf-name"                   default="kuka_lwr2_alone_lasa.urdf.xacro"/>
   <arg name="load-rviz"                   default="true"/>
   <arg name="rviz-config-path"            default="$(find kuka_lwr_bringup)/rviz-config/lwr-rviz-config.rviz"/>
   <arg name="realtime"                    default="false"/>
